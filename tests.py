@@ -21,6 +21,10 @@ class TestCase(unittest.TestCase):
         list = [1, 2]
         self.assertEqual(expected, task.list(list))
 
+    def testdate(self):
+        expected = 10
+        self.assertEqual(expected, task.dates(321, 311))
+
 
 if __name__ == '__main__':
     unittest.main()

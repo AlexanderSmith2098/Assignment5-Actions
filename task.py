@@ -8,3 +8,7 @@ def radius(rad):
 
 def list(l):
     return l[0], l[len(l)-1]
+
+
+def dates(d1, d2):
+    return d2 - d1
