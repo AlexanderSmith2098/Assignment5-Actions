@@ -17,9 +17,9 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected, task.radius(1))
 
     def testlist(self):
-        expected = 1,2
-        l = [1,2]
-        self.assertEqual(expected, task.radius(l))
+        expected = 1, 2
+        list = [1,2]
+        self.assertEqual(expected, task.radius(list))
 
 
 if __name__ == '__main__':
