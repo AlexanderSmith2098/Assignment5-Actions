@@ -3,7 +3,7 @@ def firstrun():
 
 
 def radius(rad):
-    return 3.14
+    return 3.14 * rad * rad
 
 
 def list(l):
