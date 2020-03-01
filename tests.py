@@ -23,7 +23,7 @@ class TestCase(unittest.TestCase):
 
     def testdate(self):
         expected = 10
-        self.assertEqual(expected, task.dates(321, 311))
+        self.assertEqual(expected, task.dates(311, 321))
 
 
 if __name__ == '__main__':
